@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Slogans</string>
+    <string name="google">Google: Do not be evil</string>
+    <string name="facebook">FaceBook: Its free and always will be</string>
+    <string name="apple">Apple: Think Different</string>
+    <string name="amazon">Amazon: Work hard. Have fun. Make history</string>
+    <string name="netflix">Netflix: One story away</string>
+    <string name="adidas">Adidas: Impossible is nothing</string>
+    <string name="twitter">Twitter: Life is not about a job, its about a purpose</string>
+    <string name="microsoft">Microsoft: Be what is next</string>
+</resources>

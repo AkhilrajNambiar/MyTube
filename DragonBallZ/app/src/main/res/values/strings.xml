@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dragon Ball Z</string>
+    <string name="goku">Goku</string>
+    <string name="goku_des">The most powerful saiyan, reaches an extreme called Ultra instinct</string>
+    <string name="gohan">Gohan</string>
+    <string name="gohan_des">Son of goku, fights vital battles against Cell and majin Bu</string>
+    <string name="vegeta">Vegeta</string>
+    <string name="vegeta_des">The saiyan king, jealous of goku and second most powerful!</string>
+    <string name="piccolo">Piccolo</string>
+    <string name="piccolo_des">Defeated by goku, then his friend, teacher of gohan</string>
+    <string name="beerus">Beerus</string>
+    <string name="beerus_des">God of destruction, food lover, and beaten by goku</string>
+    <string name="jiren">Jiren</string>
+    <string name="jiren_des">The most powerful being in the Universe, but not a God, test by Ultra instinct</string>
+    <string name="trunks">Trunks</string>
+    <string name="trunks_des">Son of Vegeta, time traveller and supreme sword wielder</string>
+    <string name="gogeta">Gogeta</string>
+    <string name="gogeta_des">Fusion of Goku and Vegeta, finishes of Majin Buu</string>
+    <string name="broly">Broly</string>
+    <string name="broly_des">Is stronger even than goku, but is less capable because of low control</string>
+</resources>

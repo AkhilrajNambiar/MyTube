@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My first app</string>
+    <string name="live_tennis_match_scores">Live Tennis match scores</string>
+    <string name="the_djoker">Djokovic Back as world Number 1!</string>
+    <string name="Djoker_image">The Djoker reigns</string>
+</resources>
