@@ -11,14 +11,14 @@ import com.example.slogans.model.Slogans
 class Datasource{
     fun loadSlogans(): List<Slogans>{
         return listOf<Slogans>(
-            Slogans(R.string.google),
-            Slogans(R.string.facebook),
-            Slogans(R.string.amazon),
-            Slogans(R.string.apple),
-            Slogans(R.string.microsoft),
-            Slogans(R.string.twitter),
-            Slogans(R.string.adidas),
-            Slogans(R.string.netflix)
+            Slogans(R.string.google, R.drawable.googlehq),
+            Slogans(R.string.facebook, R.drawable.facebookhq),
+            Slogans(R.string.amazon, R.drawable.amazonhq),
+            Slogans(R.string.apple, R.drawable.applehq),
+            Slogans(R.string.microsoft, R.drawable.microsofthq),
+            Slogans(R.string.twitter, R.drawable.twitterhq),
+            Slogans(R.string.adidas, R.drawable.adidashq),
+            Slogans(R.string.netflix, R.drawable.netflixhq)
         )
     }
 }

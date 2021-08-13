@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.affirmations.model.Affirmation
@@ -21,8 +22,8 @@ class ItemAdapter(private val context: Context,private val dataset: List<Affirma
     // you provide access to all the views for a data item in a view holder.
     // Each data item is just an Affirmation object.
     class ItemViewHolder(private val view: View): RecyclerView.ViewHolder(view) {
+        val imageView: ImageView = view.findViewById(R.id.item_image)
         val textView: TextView = view.findViewById(R.id.item_title)
-        // If we had images, we would have referred to them over here as well
     }
 
     // This function runs when the views are being used for the first time i.e. not when
@@ -46,6 +47,7 @@ class ItemAdapter(private val context: Context,private val dataset: List<Affirma
         // Getting the item at that position
         val item = dataset[position]
         holder.textView.text = context.resources.getString(item.stringResourceId)
+        holder.imageView.setImageResource(item.imageResourceId)
     }
     //    override fun getItemCount(): Int {
     //        return dataset.size

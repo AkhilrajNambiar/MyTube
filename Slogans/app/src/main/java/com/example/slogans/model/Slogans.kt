@@ -1,3 +1,6 @@
 package com.example.slogans.model
 
-class Slogans(val stringResourceId: Int)
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
+class Slogans(@StringRes val stringResourceId: Int,@DrawableRes val imageResourceId: Int)
