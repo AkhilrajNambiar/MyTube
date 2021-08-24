@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Words app from scratch</string>
+    <string name="menu_title">Change views</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="word_list_fragment_title">Words starting with {letter}</string>
+</resources>
