@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/movieDetailCard"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_margin="8dp"
+    app:cardElevation="5dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:spanCount="2">
+        <ImageView
+            android:id="@+id/moviePoster"
+            android:layout_width="150dp"
+            android:layout_height="192dp"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/movie_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textAppearance="?attr/textAppearanceHeadline6"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
