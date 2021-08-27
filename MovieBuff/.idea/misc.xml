@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/nambi/AndroidStudioProjects/MovieBuff/app/src/main/res/drawable-v24/ic_launcher_background2.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/nambi/AndroidStudioProjects/MovieBuff/app/src/main/res/drawable/ic_launcher_foreground2.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/nambi/AndroidStudioProjects/MovieBuff/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/nambi/AndroidStudioProjects/MovieBuff/app/src/main/res/layout/activity_movies.xml" value="0.2880098887515451" />
         <entry key="..\:/Users/nambi/AndroidStudioProjects/MovieBuff/app/src/main/res/layout/list_item.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/nambi/AndroidStudioProjects/MovieBuff/app/src/main/res/layout/movie_item.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/nambi/AndroidStudioProjects/MovieBuff/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>
