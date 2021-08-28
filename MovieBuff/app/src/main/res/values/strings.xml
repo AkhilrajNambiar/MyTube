@@ -62,5 +62,7 @@
     <string name="katthi">Katthi</string>
     <string name="master">Master</string>
     <string name="mersal">Mersal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

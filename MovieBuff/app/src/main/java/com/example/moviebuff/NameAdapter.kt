@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Adapter
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.moviebuff.model.actorModel
 import com.google.android.material.card.MaterialCardView
@@ -30,9 +31,8 @@ class NameAdapter(private val context: Context, private val dataset: List<actorM
         holder.actorImage.setImageResource(item.actorImageID)
         holder.actorName.text = context.resources.getString(item.actorNameID)
         holder.actorCard.setOnClickListener{
-            val intent = Intent(context, MoviesActivity::class.java)
-            intent.putExtra(MoviesActivity.NAME, holder.actorName.text.toString())
-            context.startActivity(intent)
+            val action = ActorFragmentDirections.actionActorFragmentToMoviesFragment(actorName = holder.actorName.text.toString())
+            holder.itemView.findNavController().navigate(action)
         }
     }
 

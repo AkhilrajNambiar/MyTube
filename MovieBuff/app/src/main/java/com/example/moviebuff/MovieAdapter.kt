@@ -42,7 +42,7 @@ class MovieAdapter(private var context: Context, private var dataset: List<movie
         holder.movieImage.setImageResource(item.moviePosters)
         holder.movieName.text = context.resources.getString(item.movies)
         holder.movieCard.setOnClickListener{
-            val queryString: Uri = Uri.parse("${MoviesActivity.SEARCH_QUERY}+${holder.movieName.text.toString()}+${name}+movie".lowercase())
+            val queryString: Uri = Uri.parse("${MoviesFragment.SEARCH_QUERY}+${holder.movieName.text.toString()}+${name}+movie".lowercase())
             val intent = Intent(Intent.ACTION_VIEW, queryString)
             context.startActivity(intent)
         }

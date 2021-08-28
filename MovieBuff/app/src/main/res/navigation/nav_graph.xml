@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/actorFragment">
+
+    <fragment
+        android:id="@+id/actorFragment"
+        android:name="com.example.moviebuff.ActorFragment"
+        android:label="MovieBuff actors">
+        <action
+            android:id="@+id/action_actorFragment_to_moviesFragment"
+            app:destination="@id/moviesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.example.moviebuff.MoviesFragment"
+        android:label="Movies of {actorName}">
+        <argument
+            android:name="actorName"
+            app:argType="string" />
+    </fragment>
+</navigation>
