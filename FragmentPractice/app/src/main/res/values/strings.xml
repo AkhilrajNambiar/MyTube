@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmentPractice</string>
+    <string name="name_placeHolder">Enter your name!</string>
+    <string name="sayHello">Say hello to me</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
