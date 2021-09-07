@@ -36,7 +36,7 @@ class GameViewModel: ViewModel() {
             wordsList.add(currentWord)
         }
     }
-    
+
     fun nextWord():Boolean{
         if( _currentWordCount.value!! < MAX_NO_OF_WORDS){
             getNextWord()
