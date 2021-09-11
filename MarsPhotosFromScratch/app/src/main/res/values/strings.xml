@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MarsPhotosFromScratch</string>
+    <string name="placeholder">Set your mars API status response over here!</string>
+</resources>
