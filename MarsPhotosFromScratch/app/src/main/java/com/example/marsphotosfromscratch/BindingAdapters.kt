@@ -6,8 +6,10 @@ import androidx.core.net.toUri
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
+import com.bumptech.glide.Glide
 import com.example.marsphotosfromscratch.data.MarsPhoto
 import com.example.marsphotosfromscratch.model.MarsApiStatus
+import kotlin.coroutines.coroutineContext
 
 /*
 * The @BindingAdapter annotation tells data binding to execute
@@ -16,7 +18,7 @@ import com.example.marsphotosfromscratch.model.MarsApiStatus
 @BindingAdapter("imageUrl")
 fun bindImage(imageView:ImageView, imgUrl: String?){
     //To convert the passed image URL to a Uri
-    imgUrl?.let{
+    imgUrl?.let {
         val imgUri = imgUrl.toUri().buildUpon().scheme("https").build()
         //Loading that image to the imageView
         imageView.load(imgUri) {
